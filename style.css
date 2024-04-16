@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:0;
+}
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    position:fixed;
+}
+header h1{
+    margin-top: 100px;
+    color:#F9FaF8;
+}
+
+.am1:hover{
+    color: rgb(73, 189, 231);
+    text-decoration: underline;
+}
+#img-logo img{
+    width:200px;
+    height:150px;
+   
+}
+
+
+#header-bar a:hover{
+    color: rgb(52, 122, 252);
+ text-decoration: underline;
+}
+
+#header-bar a{
+    color:#E5E7EB;
+    text-decoration: none;
+}
+#header-bar{
+    list-style: none;
+    
+}
+#header-bar nav{
+    display:flex;
+    
+}
+#header-bar nav li{
+    margin: 20px;
+    font-size: 1.5rem;
+
+}
+main{
+    margin: 0px;
+    padding-top:63px;
+}
+
+#sign-up{
+    background-color: #1F2937;
+    color:rgb(255, 255, 255);
+    margin:0;
+}
+.container1{
+    display:flex;
+    padding: 100px;
+}
+.sub-container1{
+    flex:1;
+}
+.sub-container1 h1{
+    font-size: 48px;
+    font: bold;
+    color: #F9FaF8;
+}
+
+.sub-container1 p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.sub-container1 img{
+    width: 600px;
+    border-radius: 30px;
+    height:400px;
+}
+
+
+#information h1{
+    font-size: 36px;
+    font: bold;
+    color: rgb(18, 45, 68);
+    /* color: #1F2937; */
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+.container2{
+    display:flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+
+}
+
+.sub-container2{
+    margin:0;
+    text-align: center;
+    transition: transform 0.6s ease-in;
+    
+    
+}
+.sub-container2 img:hover{
+    transform: translateY(-20px);
+}
+.sub-container2 img{
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid #1F2937;
+    box-shadow: 5px 5px 15px black;
+}
+#quote{
+    margin-top: 100px;
+    background-color: #dbdde2;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font:lighter;
+    padding: 200px;
+    
+}
+
+/* #author{
+    text-align: end;
+}
+#sign-up-call{
+    padding: 50px 300px;
+    margin: 0;
+} */
+
